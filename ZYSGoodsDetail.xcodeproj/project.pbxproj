@@ -13,9 +13,13 @@
 		46D68666201F1DC600521590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D68665201F1DC600521590 /* Assets.xcassets */; };
 		46D68669201F1DC600521590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D68667201F1DC600521590 /* LaunchScreen.storyboard */; };
 		46D6866C201F1DC600521590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D6866B201F1DC600521590 /* main.m */; };
+		46D68678201F29A200521590 /* ZYSGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D68677201F29A200521590 /* ZYSGoodsDetailServiceProvide.m */; };
+		46D6867B201F29C100521590 /* ZYSGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D6867A201F29C100521590 /* ZYSGoodsDetailViewController.m */; };
+		5345FED1C7B3B285B128225A /* libPods-ZYSGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F30D7B8FFC66A9A11CD527D9 /* libPods-ZYSGoodsDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42B81AD67CDAB83FB8965470 /* Pods-ZYSGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYSGoodsDetail/Pods-ZYSGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		46D68659201F1DC600521590 /* ZYSGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D6865C201F1DC600521590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46D6865D201F1DC600521590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		46D68668201F1DC600521590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D6866A201F1DC600521590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D6866B201F1DC600521590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46D68676201F29A200521590 /* ZYSGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		46D68677201F29A200521590 /* ZYSGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		46D68679201F29C100521590 /* ZYSGoodsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSGoodsDetailViewController.h; sourceTree = "<group>"; };
+		46D6867A201F29C100521590 /* ZYSGoodsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSGoodsDetailViewController.m; sourceTree = "<group>"; };
+		840AE86044F5A86993844C3F /* Pods-ZYSGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYSGoodsDetail/Pods-ZYSGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
+		F30D7B8FFC66A9A11CD527D9 /* libPods-ZYSGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYSGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5345FED1C7B3B285B128225A /* libPods-ZYSGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				46D6865B201F1DC600521590 /* ZYSGoodsDetail */,
 				46D6865A201F1DC600521590 /* Products */,
+				BF90FA8965D2A0A42C2DB383 /* Pods */,
+				5B4613E83B71376CB14345E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,7 @@
 		46D6865B201F1DC600521590 /* ZYSGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				46D68675201F29A200521590 /* ZYSGoodsDetail */,
 				46D6865C201F1DC600521590 /* AppDelegate.h */,
 				46D6865D201F1DC600521590 /* AppDelegate.m */,
 				46D6865F201F1DC600521590 /* ViewController.h */,
@@ -71,6 +85,34 @@
 			path = ZYSGoodsDetail;
 			sourceTree = "<group>";
 		};
+		46D68675201F29A200521590 /* ZYSGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				46D68676201F29A200521590 /* ZYSGoodsDetailServiceProvide.h */,
+				46D68677201F29A200521590 /* ZYSGoodsDetailServiceProvide.m */,
+				46D68679201F29C100521590 /* ZYSGoodsDetailViewController.h */,
+				46D6867A201F29C100521590 /* ZYSGoodsDetailViewController.m */,
+			);
+			path = ZYSGoodsDetail;
+			sourceTree = "<group>";
+		};
+		5B4613E83B71376CB14345E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30D7B8FFC66A9A11CD527D9 /* libPods-ZYSGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF90FA8965D2A0A42C2DB383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B81AD67CDAB83FB8965470 /* Pods-ZYSGoodsDetail.debug.xcconfig */,
+				840AE86044F5A86993844C3F /* Pods-ZYSGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D6866F201F1DC600521590 /* Build configuration list for PBXNativeTarget "ZYSGoodsDetail" */;
 			buildPhases = (
+				382C7A6CA7BD78B46D90C04B /* [CP] Check Pods Manifest.lock */,
 				46D68655201F1DC600521590 /* Sources */,
 				46D68656201F1DC600521590 /* Frameworks */,
 				46D68657201F1DC600521590 /* Resources */,
+				9783360A75A2724A04D3CDCD /* [CP] Embed Pods Frameworks */,
+				11704A3E3335BFA52ACDE2FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +182,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11704A3E3335BFA52ACDE2FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYSGoodsDetail/Pods-ZYSGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382C7A6CA7BD78B46D90C04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYSGoodsDetail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9783360A75A2724A04D3CDCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYSGoodsDetail/Pods-ZYSGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46D68655201F1DC600521590 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D68678201F29A200521590 /* ZYSGoodsDetailServiceProvide.m in Sources */,
 				46D68661201F1DC600521590 /* ViewController.m in Sources */,
 				46D6866C201F1DC600521590 /* main.m in Sources */,
+				46D6867B201F29C100521590 /* ZYSGoodsDetailViewController.m in Sources */,
 				46D6865E201F1DC600521590 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +374,7 @@
 		};
 		46D68670201F1DC600521590 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B81AD67CDAB83FB8965470 /* Pods-ZYSGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +389,7 @@
 		};
 		46D68671201F1DC600521590 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840AE86044F5A86993844C3F /* Pods-ZYSGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

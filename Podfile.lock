@@ -1,0 +1,15 @@
+PODS:
+  - ZYSGoodsDetailServiceProtocol (0.0.1)
+  - ZYSProtocolManager (0.0.1)
+
+DEPENDENCIES:
+  - ZYSGoodsDetailServiceProtocol
+  - ZYSProtocolManager
+
+SPEC CHECKSUMS:
+  ZYSGoodsDetailServiceProtocol: c9340e170d8b1637a02b6732ab7794ef45da3b0c
+  ZYSProtocolManager: 591e2e6225a22cf7052d65692e303bdccd7b51c5
+
+PODFILE CHECKSUM: 2b0630026b49d6f383c7c9f3361dcbadd904ad06
+
+COCOAPODS: 1.3.1
